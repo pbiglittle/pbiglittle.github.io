@@ -1,0 +1,146 @@
+  .header {
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.title {
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  
+  .active {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  li a:hover {
+    background-color: white;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .col-33 {
+    width: calc(33.33% - 30px);
+    padding: 11px;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 100;
+  }
+
+  .col-33 img {
+    display: block;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    transition: opacity 0.3s ease;
+  }
+
+  .col-33 img:hover {
+    opacity: 0.4;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .container:hover .caption {
+    opacity: 1;
+  }
+
+  .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42.5%, -50%);
+    color: #000;
+    font-size: 16px;
+    font-family: Poppins;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .center {
+    text-align: center;
+    font-size: 25px;
+    font-family: Poppins;
+    margin-top: -20px;
+  }
+
+  .outside {
+    padding: 11px;
+  }
+
+  .inside {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .title2 {
+    display: inline-block;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .message {
+    display: inline-block;
+    text-align: left;
+    margin-top: 35px;
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
